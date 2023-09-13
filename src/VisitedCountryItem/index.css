@@ -1,0 +1,32 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 32%;
+  margin-right: 15px;
+  background-color: #1f1f2f;
+  border-radius: 5px;
+}
+
+.image {
+  width: 100%;
+}
+.name-and-remove-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.country-name {
+  color: aliceblue;
+}
+
+.remove-button {
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  color: #f1f5f9;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
